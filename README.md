@@ -6,3 +6,12 @@ O projeto visa desenvolver um sistema para registrar e controlar esses eventos, 
 ### Como Realizar Deploy da Aplicação
 
 * Criar o Banco de Dados utilizando [Script](expoCANP.sql) disponibilizado no repositório.
+* Configurando o .env, criando caso o mesmo não exista.
+* Realizar as Migrations
+```
+php artisan migrate
+```
+* Rodar as Seeds das Tabelas
+```
+php artisan db:seed
+```
