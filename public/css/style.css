@@ -1,0 +1,46 @@
+.bg-green {
+    background-color: #28a745;
+}
+
+.btn-green, .btn-green:focus {
+    color: #fff;
+    background-color: #28a745;
+    border: #2fe75a;
+}
+
+.btn-green:hover {
+    background-color: #2fe75a;
+    border: #28a745;
+    color: #fff;
+}
+
+.btn-link {
+    color: #28a745;
+}
+
+.btn-link:hover {
+    color: #2ec451;
+}
+
+.form-control:focus {
+    border-color: #aaf099;
+    box-shadow: 0 0 0 .2rem rgba(38, 219, 77, 0.25);
+}
+
+.page-link:hover {
+    color: #28a745;
+}
+
+.link-green:active {
+    background-color: #28a745;
+}
+
+.link-table-green {
+    color:  #297e3c;
+}
+
+.link-table-green:hover {
+    color:  #21522b;
+}
+
+ .fonte-turma{font-family: "Courier New";}
