@@ -9,18 +9,18 @@ O projeto visa desenvolver um sistema para registrar e controlar esses eventos, 
 * MySQL
 * Composer
 
-OBS: Pode utilizar feramentas facilitadoras de instalação de Servidores de PHP e MySQL como o XAMPP, porém continua sendo necessária a instalação do composer.
+OBS: Pode utilizar feramentas facilitadoras de instalação de servidores de PHP e MySQL como o XAMPP, porém continua sendo necessária a instalação do Composer.
 
-### Como Realizar Deploy da Aplicação
+### Como realizar deploy da aplicação
 
-* Fazer o Donwload dos Arquivos da Branch: [Master](https://github.com/felipedavi/expocanp-solution/archive/master.zip)
+* Fazer o donwload dos arquivos da branch: [Master](https://github.com/felipedavi/expocanp-solution/archive/master.zip)
 * Descompactar o arquivo que foi baixado
-> Rodar Todos Comandos Dentro da pasta raiz do projeto
+> Rodar todos comandos dentro da pasta raiz do projeto
 * Instalar dependecias do composer :
 ```
 composer install
 ```
-* Criar o Arquivo .env:
+* Criar o arquivo .env:
 ```
 copy ".env.example" ".env";
 ```
@@ -28,14 +28,14 @@ copy ".env.example" ".env";
 ```
 php artisan key:generate
 ```
-* Criar o Banco de Dados utilizando [Script](expoCANP.sql) disponibilizado no repositório.
+* Criar o banco de dados utilizando [Script](expoCANP.sql) disponibilizado no repositório.
 * Configurando o .env, criando caso o mesmo não exista.
-* Realizar as Migrations:
+* Realizar as migrations:
 ```
 php artisan migrate
 ```
-* Rodar as Seeds das Tabelas:
+* Rodar as seeds das tabelas:
 ```
 php artisan db:seed
 ```
-* Testar a Aplicação
+* Testar a aplicação
