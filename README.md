@@ -5,7 +5,7 @@ O projeto visa desenvolver um sistema para registrar e controlar esses eventos, 
 
 ### Como Realizar Deploy da Aplicação
 
-* Fazer o Donwload dos Arquivos da Branch: Master
+* Fazer o Donwload dos Arquivos da Branch: [Master](https://github.com/felipedavi/expocanp-solution/archive/master.zip)
 * Descompactar o arquivo que foi baixado
 * Rodar o comando para instalar dependecias do composer dentro da pasta raiz do Projeto
 ```
