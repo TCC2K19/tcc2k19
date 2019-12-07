@@ -15,17 +15,26 @@ OBS: Pode utilizar feramentas facilitadoras de instalação de Servidores de PHP
 
 * Fazer o Donwload dos Arquivos da Branch: [Master](https://github.com/felipedavi/expocanp-solution/archive/master.zip)
 * Descompactar o arquivo que foi baixado
-* Rodar o comando para instalar dependecias do composer dentro da pasta raiz do Projeto
+> Rodar Todos Comandos Dentro da pasta raiz do projeto
+* Instalar dependecias do composer :
 ```
 composer install
 ```
+* Criar o Arquivo .env:
+```
+copy ".env.example" ".env";
+```
+* Gerar a chave da aplicação no .env:
+```
+php artisan key:generate
+```
 * Criar o Banco de Dados utilizando [Script](expoCANP.sql) disponibilizado no repositório.
 * Configurando o .env, criando caso o mesmo não exista.
-* Realizar as Migrations
+* Realizar as Migrations:
 ```
 php artisan migrate
 ```
-* Rodar as Seeds das Tabelas
+* Rodar as Seeds das Tabelas:
 ```
 php artisan db:seed
 ```
