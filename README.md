@@ -5,6 +5,12 @@ O projeto visa desenvolver um sistema para registrar e controlar esses eventos, 
 
 ### Como Realizar Deploy da Aplicação
 
+* Fazer o Donwload dos Arquivos da Branch: Master
+* Descompactar o arquivo que foi baixado
+* Rodar o comando para instalar dependecias do composer dentro da pasta raiz do Projeto
+```
+composer install
+```
 * Criar o Banco de Dados utilizando [Script](expoCANP.sql) disponibilizado no repositório.
 * Configurando o .env, criando caso o mesmo não exista.
 * Realizar as Migrations
